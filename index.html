@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Escuelita</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link rel="icon" type="text/css" href="https://static.wikia.nocookie.net/memes-pedia/images/2/2c/89592b3392fee110134235e95d80dbf7.jpg/revision/latest/scale-to-width-down/680?cb=20200527113030&path-prefix=es">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script src="codigo.js"></script>
+	<form>
+		<h1>Complete con sus datos</h1>
+		<ul>
+			<li>
+				<label>Nombre:</label>
+				<input type="text" name="name" placeholder="Nombre completo" id="name">
+			</li>
+			<li>
+				<label>DNI:</label>
+				<input type="text" name="dni" placeholder="Ingrese su numero de DNI" id="dni">
+			</li>
+			<li>
+				<label>Fecha de nacimiento:</label>
+				<input type="date" name="user_date" id="user_date" value="date">
+				<button type="button" onsubmit="calcularEdad()">Validar</button>
+			</li>
+			<li>
+				<label>Telefono:</label>
+				<input type="name" name="telefono" maxlength="10" placeholder="Ingrese su telefono" id="telefono">
+			</li>
+			<li>
+				<label>Email:</label>
+				<input type="email" name="email" placeholder="Email" maxlength="50" id="email">
+			</li>
+			<li>
+				<label>Numero de legajo:</label>
+				<input type="text" name="legajo" placeholder="Cual es su legajo?" id="legajo">
+			</li>
+			<li>
+				<label>Curso</label>
+				<input type="text" name="curso" placeholder="Cual es su curso?" id="curso">
+			</li>
+			<li class="boton">
+				<button type="submit" id="enviar" onclick="validarCurso()">Enviar</button>
+			</li>
+		</ul>
+	</form>
+</body>
+</html>

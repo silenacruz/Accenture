@@ -1,0 +1,46 @@
+form
+{
+	background: #ccc;
+	width: 30vw;
+	color: #ff5050;
+	box-shadow: 1px 1px 12px 5px rgba(0,0,0,0.5);
+	margin: 50px;
+}
+li
+{
+	text-align: left;
+	list-style: none;
+	padding: 15px;
+	font-size: 22px;
+	font-family: 'Akaya Telivigala', cursive;
+
+}
+input
+{
+	background: #f99;
+	color: black;
+	border: 1.5px solid black;
+}
+input:hover
+{
+	background: #ffF;
+	transition: 0.3s;
+}
+button
+{
+	color: #fff;
+	background:#f99;
+	width: 80px;
+	height: 30px;
+	border: 1px solid black;
+}
+h1
+{
+	font-family: 'Bebas Neue', cursive;
+
+	text-align: center;
+	padding: 40px 20px 40px 20px;
+	color: #fff;
+	background: black;
+	font-size: 30px;
+}
